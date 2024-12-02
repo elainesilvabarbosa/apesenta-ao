@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.features {
+    background: white;
+    padding: 40px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.features li {
+    padding: 10px 0;
+}
+
+.cta {
+    background: #007BFF;
+    color: white;
+    padding: 40px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.subscribe-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.subscribe-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.subscribe-button:hover {
+    background-color: #003f7f;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}

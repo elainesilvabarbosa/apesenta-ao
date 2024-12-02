@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: #333;
+}
+
+.contact-container p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.call-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.call-button a {
+    color: white;
+    text-decoration: none;
+}
+
